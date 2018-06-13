@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835acdda-b5db-4e0b-a6d0-d85015f43ea0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Engine.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramenta.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramentas/Chave.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramentas/Dinamite.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramentas/Lanterna.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramentas/Picareta.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/FimDeJogoException.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/HallEntrada.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Mochila.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Objeto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Objetos/Cofre.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Objetos/PilhaPedras.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Sala.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaCofre.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaJogoDemo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaPedras.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java" afterPath="$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java" />
+      <change beforePath="$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java" afterPath="$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,21 +35,23 @@
       <file leaf-file-name="CaixaDeFosforo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PalitoFosforo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PalitoFosforo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
               <folding>
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,11 +60,24 @@
       <file leaf-file-name="Ferramenta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/API_master/Ferramenta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mochila.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Mochila.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +109,8 @@
         <option value="$PROJECT_DIR$/src/API_master/Sala.java" />
         <option value="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramenta.java" />
         <option value="$PROJECT_DIR$/src/API_master/Personagem.java" />
-        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java" />
         <option value="$PROJECT_DIR$/src/API_master/Ferramentas/Fosforo.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java" />
         <option value="$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java" />
       </list>
     </option>
@@ -306,12 +303,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528325233807</updated>
       <workItem from="1528325242219" duration="1525000" />
-      <workItem from="1528930019304" duration="1717000" />
+      <workItem from="1528930019304" duration="3935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3242000" />
+    <option name="totallyTimeSpent" value="5460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -527,13 +524,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API_master/Mochila.java">
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramenta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,32 +571,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramenta.java">
+    <entry file="file://$PROJECT_DIR$/src/API_master/Mochila.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="23" />
           <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
           </folding>
         </state>
       </provider>

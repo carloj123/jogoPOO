@@ -13,7 +13,7 @@ public class PalitoFosforo extends Ferramenta{
         estaQueimado = false;
     }
 
-    public void acende(){
+    public void acender(){
         for (int i = 0; i < MAX_SEGUNDOS_ACES0; i++){
             try{
                 Thread.sleep(1000);
