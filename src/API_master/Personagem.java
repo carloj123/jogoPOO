@@ -1,6 +1,8 @@
 package API_master;
 
 
+import API_master.Ferramentas.CaixaDeFosforo;
+
 public class Personagem extends Mochila{
 
 
@@ -37,9 +39,12 @@ public class Personagem extends Mochila{
     public Ferramenta usar(String descricção){
         Ferramenta f = super.usar(descricção);
         if(f instanceof PickLock){
-            f = (PickLock) f;
-            if(!f.getDisponivel())
+            if(!((PickLock) f).getDisponivel())
                 return null;
+        }else if(f instanceof CaixaDeFosforo){
+             if(!((CaixaDeFosforo) f).usarUmPalito()){
+                return null;
+            }
         }
 
         return f;

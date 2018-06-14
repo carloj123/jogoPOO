@@ -19,8 +19,8 @@ public class CaixaDeFosforo extends Ferramenta{
         if(palitos.empty())
             return false;
 
-        PalitoFosforo umPalito = palitos.pop();
-        umPalito.acender();
+        palitos.pop().acender();
+
         return true;
     }
 

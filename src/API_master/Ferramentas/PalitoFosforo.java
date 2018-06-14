@@ -6,11 +6,9 @@ import API_master.Ferramenta;
 public class PalitoFosforo extends Ferramenta{
 
     private final int MAX_SEGUNDOS_ACES0 = 10;
-    private boolean estaQueimado;
 
     public PalitoFosforo(String descricao){
         super(descricao);
-        estaQueimado = false;
     }
 
     public void acender(){
@@ -20,12 +18,6 @@ public class PalitoFosforo extends Ferramenta{
             }catch(InterruptedException e){
                 System.out.println(e.getMessage());
             }
-        }
-
-        estaQueimado = true;
     }
 
-    public boolean getEstaQueimado(){
-        return estaQueimado;
-    }
 }
