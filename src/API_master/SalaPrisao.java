@@ -2,12 +2,12 @@ package API_master;
 
 import jogo_demo.JogoDemo.Chave;
 import jogo_demo.JogoDemo.Ferramenta;
-import jogo_demo.JogoDemo.Picareta;
-import jogo_demo.JogoDemo.PilhaPedras;
 
-public class Prisao extends Sala{
-	public Prisao() {
-		super("Prisão");
+
+public class SalaPrisao extends Sala{
+	
+	public SalaPrisao() {
+		super("PrisÃ£o");
 		Picklock picklock = new Picklock();
 		Bau bau = new Bau(chave);
 		this.getFerramentas().put((picklock.getDescricao(), picklock);
@@ -16,8 +16,8 @@ public class Prisao extends Sala{
 	@Override
 	public String textoDescricao() {
 		StringBuilder descricao = new StringBuilder();
-		descricao.append("Você esta no ").append(this.getNome()).append("\n");
-		descricao.append("Está tudo úmido, Você está sozinho em uma cela.\n");
+		descricao.append("VocÃª esta no ").append(this.getNome()).append("\n");
+		descricao.append("EstÃ¡ tudo Ãºmido, VocÃª estÃ¡ sozinho em uma cela.\n");
 		descricao.append("Objetos: ").append(this.objetosDisponiveis().toString()).append("\n");
 		descricao.append("Ferramentas: ").append(this.ferramentasDisponiveis().toString()).append("\n");
 		descricao.append("Porta: ").append(this.portasDisponiveis().toString()).append("\n");

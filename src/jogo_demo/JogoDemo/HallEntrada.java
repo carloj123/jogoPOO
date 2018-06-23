@@ -1,7 +1,7 @@
 package jogo_demo.JogoDemo;
 
-import JogoDemo.Ferramentas.Dinamite;
-import JogoDemo.Ferramentas.Lanterna;
+import jogo_demo.JogoDemo.Ferramentas.Dinamite;
+import jogo_demo.JogoDemo.Ferramentas.Lanterna;
 
 public class HallEntrada extends SalaJogoDemo {
 
