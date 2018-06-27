@@ -1,18 +1,22 @@
-package API_master;
+package API_master.Salas;
 
+import API_master.Ferramenta;
 import API_master.Ferramentas.LockPick;
+import API_master.Objeto;
 import API_master.Objetos.Bau;
+import API_master.Objetos.Cela;
+import API_master.Sala;
 
 import java.util.List;
+import java.util.concurrent.locks.Lock;
 
-public class Prisao extends Sala{
+public class Prisao extends Sala {
 
 
 	public Prisao() {
-		super("Prisão");
-
-        super.getFerramentas().put("LockPick", new LockPick());
-        super.getObjetos().put("Baú", new Bau("abc123"));
+		super("Prisão.");
+		super.getObjetos().put("Cela", new Cela());
+		super.getFerramentas().put("Grampo", new LockPick());
 	}
 	
 	@Override
@@ -26,31 +30,23 @@ public class Prisao extends Sala{
 		return descricao.toString();
 	}
 	
+
 	@Override
-	public boolean usa(String ferramenta) {
-		Ferramenta f = this.getMochila().usar(ferramenta);
+	public boolean usa(String ferramenta){
+		Ferramenta f = super.getMochila().usar(ferramenta);
 
-		if(f == null)
-			return false;
 		if(f instanceof LockPick){
-			((LockPick) f).abrir();
+			Objeto obj = super.getObjetos().get("Cela");
+
+			if(obj instanceof Cela){
+				if(super.getObjetos().get("Cela").usar(f)) {
+
+					return true;
+				}
+			}
 		}
 
-
-		/*if (f == null || !(f instanceof LockPick)) {
-			return false;
-		}
-		Cadeado cadeado = (Cadeado)this.getObjetos().get("Cadeado");
-		cadeado.usar(f);
-		if (picklock.abrir()) {
-		bau.abrir();
-		Chave chave = new Chave();
-		this.getFerramentas().put(chave.getDescricao(), chave);
-		return true;
-		}
-		else {
-			return false;
-		}*/
-	}	
+		return false;
+	}
 
 }

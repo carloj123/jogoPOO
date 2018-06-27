@@ -14,7 +14,7 @@ public class LockPick extends Ferramenta{
 	Random gerador = new Random();
 
 	public LockPick() {
-		super("Ferramenta utilizada para abrir fechaduras.");
+		super("Grampo");
 		this.qtdFalhas = 0;
 		estaQuebrado = false;
 	}
