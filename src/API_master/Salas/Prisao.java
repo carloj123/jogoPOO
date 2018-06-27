@@ -2,51 +2,42 @@ package API_master.Salas;
 
 import API_master.Ferramenta;
 import API_master.Ferramentas.LockPick;
-import API_master.Objeto;
-import API_master.Objetos.Bau;
 import API_master.Objetos.Cela;
 import API_master.Sala;
-
-import java.util.List;
-import java.util.concurrent.locks.Lock;
 
 public class Prisao extends Sala {
 
 
-	public Prisao() {
-		super("Prisão.");
-		super.getObjetos().put("Cela", new Cela());
-		super.getFerramentas().put("Grampo", new LockPick());
-	}
-	
-	@Override
-	public String textoDescricao() {
-		StringBuilder descricao = new StringBuilder();
-		descricao.append("Você está na ").append(super.getNome()).append(".\n");
-		descricao.append("Está tudo úmido. Você está sozinho em uma cela.\n");
-		descricao.append("Objetos: ").append(this.objetosDisponiveis().toString()).append("\n");
-		descricao.append("Ferramentas: ").append(this.ferramentasDisponiveis().toString()).append("\n");
-		descricao.append("Porta: ").append(this.portasDisponiveis().toString()).append("\n");
-		return descricao.toString();
-	}
-	
+    public Prisao() {
+        super("Prisão.");
+        super.getObjetos().put("Cela", new Cela());
+        super.getFerramentas().put("Grampo", new LockPick());
+    }
 
-	@Override
-	public boolean usa(String ferramenta){
-		Ferramenta f = super.getMochila().usar(ferramenta);
+    @Override
+    public String textoDescricao() {
+        StringBuilder descricao = new StringBuilder();
+        descricao.append("Você está na ").append(super.getNome()).append(".\n");
+        descricao.append("Está tudo úmido. Você está sozinho em uma cela.\n");
+        descricao.append("Objetos: ").append(this.objetosDisponiveis().toString()).append("\n");
+        descricao.append("Ferramentas: ").append(this.ferramentasDisponiveis().toString()).append("\n");
+        descricao.append("Porta: ").append(this.portasDisponiveis().toString()).append("\n");
+        return descricao.toString();
+    }
 
-		if(f instanceof LockPick){
-			Objeto obj = super.getObjetos().get("Cela");
 
-			if(obj instanceof Cela){
-				if(super.getObjetos().get("Cela").usar(f)) {
+    @Override
+    public boolean usa(String ferramenta) {
+        //A FERRAMENTA ESPERADA É UM LOCKPICK
+        Ferramenta f = super.getMochila().usar(ferramenta);
 
-					return true;
-				}
-			}
-		}
-
-		return false;
-	}
+        if (f instanceof LockPick) {//SE FOR LOCKPICK
+            if (super.getObjetos().get("Cela").usar(f)) {//SE O LOCKPICK NÃO FALHAR, RETURN TRUE
+                return true;
+            }
+        }
+        
+        return false;
+    }
 
 }

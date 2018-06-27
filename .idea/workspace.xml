@@ -18,8 +18,8 @@
       <file leaf-file-name="Prisao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/API_master/Salas/Prisao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="77" />
+            <state relative-caret-position="646">
+              <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,7 +211,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -407,15 +407,15 @@
       <updated>1528325233807</updated>
       <workItem from="1528325242219" duration="1525000" />
       <workItem from="1528930019304" duration="3935000" />
-      <workItem from="1530133282213" duration="4613000" />
+      <workItem from="1530133282213" duration="4884000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10073000" />
+    <option name="totallyTimeSpent" value="10344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -807,8 +807,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/API_master/Salas/Prisao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="77" />
+        <state relative-caret-position="646">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
