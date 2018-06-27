@@ -2,6 +2,7 @@ package API_master;
 
 
 import API_master.Ferramentas.CaixaDeFosforo;
+import API_master.Ferramentas.LockPick;
 
 public class Personagem extends Mochila{
 
@@ -38,8 +39,9 @@ public class Personagem extends Mochila{
     @Override
     public Ferramenta usar(String descricção){
         Ferramenta f = super.usar(descricção);
-        if(f instanceof PickLock){
-            if(!((PickLock) f).getDisponivel())
+
+        if(f instanceof LockPick){
+            if(((LockPick) f).estaQuebrado())
                 return null;
         }else if(f instanceof CaixaDeFosforo){
              if(!((CaixaDeFosforo) f).usarUmPalito()){

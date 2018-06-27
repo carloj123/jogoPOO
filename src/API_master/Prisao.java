@@ -1,23 +1,25 @@
 package API_master;
 
-import jogo_demo.JogoDemo.Chave;
-import jogo_demo.JogoDemo.Ferramenta;
-import jogo_demo.JogoDemo.Picareta;
-import jogo_demo.JogoDemo.PilhaPedras;
+import API_master.Ferramentas.LockPick;
+import API_master.Objetos.Bau;
+
+import java.util.List;
 
 public class Prisao extends Sala{
+
+
 	public Prisao() {
-		super("Pris�o");
-		Picklock picklock = new Picklock();
-		Bau bau = new Bau(chave);
-		this.getFerramentas().put((picklock.getDescricao(), picklock);
+		super("Prisão");
+
+        super.getFerramentas().put("LockPick", new LockPick());
+        super.getObjetos().put("Baú", new Bau("abc123"));
 	}
 	
 	@Override
 	public String textoDescricao() {
 		StringBuilder descricao = new StringBuilder();
-		descricao.append("Voc� esta no ").append(this.getNome()).append("\n");
-		descricao.append("Est� tudo �mido, Voc� est� sozinho em uma cela.\n");
+		descricao.append("Você está na ").append(super.getNome()).append(".\n");
+		descricao.append("Está tudo úmido. Você está sozinho em uma cela.\n");
 		descricao.append("Objetos: ").append(this.objetosDisponiveis().toString()).append("\n");
 		descricao.append("Ferramentas: ").append(this.ferramentasDisponiveis().toString()).append("\n");
 		descricao.append("Porta: ").append(this.portasDisponiveis().toString()).append("\n");
@@ -27,7 +29,15 @@ public class Prisao extends Sala{
 	@Override
 	public boolean usa(String ferramenta) {
 		Ferramenta f = this.getMochila().usar(ferramenta);
-		if (f == null || !(f instanceof Picklock)) {
+
+		if(f == null)
+			return false;
+		if(f instanceof LockPick){
+			((LockPick) f).abrir();
+		}
+
+
+		/*if (f == null || !(f instanceof LockPick)) {
 			return false;
 		}
 		Cadeado cadeado = (Cadeado)this.getObjetos().get("Cadeado");
@@ -40,7 +50,7 @@ public class Prisao extends Sala{
 		}
 		else {
 			return false;
-		}
+		}*/
 	}	
 
 }
