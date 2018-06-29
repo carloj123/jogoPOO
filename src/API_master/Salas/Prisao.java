@@ -1,6 +1,7 @@
 package API_master.Salas;
 
 import API_master.Ferramenta;
+import API_master.Ferramentas.Lanterna;
 import API_master.Ferramentas.LockPick;
 import API_master.Objetos.Cela;
 import API_master.Sala;
@@ -12,6 +13,8 @@ public class Prisao extends Sala {
         super("Prisão.");
         super.getObjetos().put("Cela", new Cela());
         super.getFerramentas().put("Grampo", new LockPick());
+        super.getFerramentas().put("Lanterna", new Lanterna());
+        super.getPortas().put("Sala Escura", new SalaEscura());
     }
 
     @Override

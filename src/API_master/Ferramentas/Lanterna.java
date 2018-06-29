@@ -29,4 +29,8 @@ public class Lanterna extends Ferramenta{
         return false;
     }
 
+    public boolean estaLigada(){
+        return estaLigada;
+    }
+
 }
