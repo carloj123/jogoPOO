@@ -20,8 +20,8 @@ public class LockPick extends Ferramenta{
 	}
 	
 	public boolean abrir() {
-		int chance = gerador.nextInt(100)+1;
-		if(chance % 5 == 0) {
+		int chance = gerador.nextInt(10000)+1;
+		if(chance % 2 == 0) {
 			return super.usar();
 		}
 		else {
