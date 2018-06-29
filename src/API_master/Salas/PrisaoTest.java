@@ -1,5 +1,6 @@
 package API_master.Salas;
 
+import API_master.Ferramentas.LockPick;
 import API_master.Mochila;
 import API_master.Personagem;
 import API_master.Sala;
@@ -14,6 +15,7 @@ public class PrisaoTest {
     @Test
     public void testLockPickNaCela(){
         Mochila p = new Personagem("Marlon");
+        p.guardar(new LockPick());
         Sala s = new Prisao();
         s.entra(p);
         s.usa("Grampo");
@@ -21,6 +23,7 @@ public class PrisaoTest {
         String obtido = s.getObjetos().get("Cela").getDescricao();
 
         assertEquals (esperado, obtido);
+
     }
 
 
