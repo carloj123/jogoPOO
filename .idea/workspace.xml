@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835acdda-b5db-4e0b-a6d0-d85015f43ea0" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/API_master/Prisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/API_master/Prisao.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/API_master/Salas/SalaDoCofre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API_master/Salas/Prisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/API_master/Salas/Prisao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API_master/Salas/SalaEscura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/API_master/Salas/SalaEscura.java" afterDir="false" />
+>>>>>>> develop
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="Prisao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/API_master/Prisao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
               <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              <folding>
+=======
+      <file leaf-file-name="Sala.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Sala.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Escuridao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Escuridao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prisao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Salas/Prisao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="51" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,7 +64,99 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SalaDoCofre.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Salas/SalaDoCofre.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bau.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Bau.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Porta.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Porta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Corredor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Salas/Corredor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-line="1" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#995#996#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cela.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Cela.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaEmChamas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Salas/SalaEmChamas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SalaEscura.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API_master/Salas/SalaEscura.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+>>>>>>> develop
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+<<<<<<< HEAD
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+>>>>>>> develop
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,7 +169,39 @@
         <option value="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Objetos/Cofre.java" />
         <option value="$PROJECT_DIR$/src/API_master/Sala.java" />
         <option value="$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramenta.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/API_master/Prisao.java" />
+=======
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/Fosforo.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Mochila.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/CaixaDeFosforo.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/PalitoFosforo.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Prisao.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/Extintor.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/Cela.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/Fogo.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/Dreno.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/Agua.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/LuvasDeBorracha.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/Chave.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/CofreEletrocutado.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/Porta.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Personagem.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/Bau.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Interface/App.java" />
+        <option value="$PROJECT_DIR$/src/API_master/SalaComImagem.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Salas/PrisaoTest.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/LockPick.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/Escuridao.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Ferramentas/Lanterna.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Objetos/BauTest.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Salas/SalaEscura.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Salas/SalaInundada.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Salas/SalaEmChamas.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Salas/Prisao.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Salas/SalaDoCofre.java" />
+        <option value="$PROJECT_DIR$/src/API_master/Salas/Corredor.java" />
+>>>>>>> develop
       </list>
     </option>
   </component>
@@ -53,10 +214,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="242" />
     <option name="y" value="183" />
     <option name="width" value="1336" />
+=======
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+>>>>>>> develop
     <option name="height" value="688" />
   </component>
   <component name="ProjectView">
@@ -64,12 +232,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="jogoPOO" type="b2602c69:ProjectViewProjectNode" />
               <item name="jogoPOO" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
             </path>
             <path>
               <item name="jogoPOO" type="b2602c69:ProjectViewProjectNode" />
@@ -81,28 +253,63 @@
               <item name="jogoPOO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="API_master" type="462c0819:PsiDirectoryNode" />
+>>>>>>> develop
             </path>
             <path>
               <item name="jogoPOO" type="b2602c69:ProjectViewProjectNode" />
               <item name="jogoPOO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="JogoDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="API_master" type="462c0819:PsiDirectoryNode" />
+              <item name="Ferramentas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogoPOO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogoPOO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="API_master" type="462c0819:PsiDirectoryNode" />
+              <item name="Objetos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jogoPOO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jogoPOO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="API_master" type="462c0819:PsiDirectoryNode" />
+              <item name="Salas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+=======
+>>>>>>> develop
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+>>>>>>> develop
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="API_master.Objetos" />
+      <recent name="API_master.Salas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17212042\Desktop\trabalho_POO\jogoPOO\src\API_master" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\17212042\IdeaProjects\adventure_game\src\jogo_demo\JogoDemo" />
       <recent name="C:\Users\17212042\IdeaProjects\adventure_game\src\jogo_demo" />
@@ -121,12 +328,95 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Arquillian JUnit.BauTest.usar">
     <configuration default="true" type="Applet" factoryName="Applet">
+<<<<<<< HEAD
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BauTest.usar" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="adventure_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_master.Objetos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="API_master.Objetos" />
+      <option name="MAIN_CLASS_NAME" value="API_master.Objetos.BauTest" />
+      <option name="METHOD_NAME" value="usar" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PrisaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventure_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_master.Salas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="API_master.Salas" />
+      <option name="MAIN_CLASS_NAME" value="API_master.Salas.PrisaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PrisaoTest.testLockPickNaCela" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="adventure_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_master.Salas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="API_master.Salas" />
+      <option name="MAIN_CLASS_NAME" value="API_master.Salas.PrisaoTest" />
+      <option name="METHOD_NAME" value="testLockPickNaCela" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+>>>>>>> develop
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -166,6 +456,21 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
+=======
+    <list>
+      <item itemvalue="JUnit.PrisaoTest" />
+      <item itemvalue="JUnit.PrisaoTest.testLockPickNaCela" />
+      <item itemvalue="Arquillian JUnit.BauTest.usar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Arquillian JUnit.BauTest.usar" />
+        <item itemvalue="JUnit.PrisaoTest.testLockPickNaCela" />
+        <item itemvalue="JUnit.PrisaoTest" />
+      </list>
+    </recent_temporary>
+>>>>>>> develop
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -180,10 +485,47 @@
       <workItem from="1528325242219" duration="1525000" />
       <workItem from="1529783318281" duration="66000" />
       <workItem from="1529783416622" duration="537000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1530324443866" duration="6558000" />
+>>>>>>> develop
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 00m 02s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 00m 17s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 00m 29s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 00m 44s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 01m 00s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 01m 13s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 01m 40s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 02m 12s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 02m 30s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrisaoTest_testLockPickNaCela - 2018.06.29 at 12h 02m 48s.xml">
+      <configuration name="PrisaoTest.testLockPickNaCela" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2128000" />
   </component>
   <component name="ToolWindowManager">
@@ -191,6 +533,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+=======
+    <option name="totallyTimeSpent" value="20122000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
+>>>>>>> develop
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -213,9 +566,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+=======
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296355" />
+>>>>>>> develop
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +583,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaPedras.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -346,25 +706,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaPedras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API_master/Mochila.java">
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaCofre.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+>>>>>>> develop
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/HallEntrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-7">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+=======
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+>>>>>>> develop
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API_master/Objeto.java">
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaJogoDemo.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-7">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+=======
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+>>>>>>> develop
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API_master/Sala.java">
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/App.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
@@ -400,6 +790,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+=======
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -407,10 +807,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaPedras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaCofre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -432,19 +842,302 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Sala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Objetos/Cofre.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Mochila.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Objeto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Ferramenta.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaPedras.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+>>>>>>> develop
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Sala.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="120">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="420">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/Sala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+>>>>>>> develop
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/HallEntrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/SalaJogoDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jogo_demo/JogoDemo/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Prisao.java" />
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/function/Function.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/BauTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+>>>>>>> develop
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/API_master/Prisao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/Extintor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Agua.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/Chave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/Dreno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramenta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objeto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Personagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/CofreEletrocutado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Mochila.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Ferramentas/LuvasDeBorracha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Fogo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Salas/SalaInundada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Salas/PrisaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Sala.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Escuridao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Salas/SalaEscura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Salas/Prisao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Salas/SalaEmChamas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Salas/SalaDoCofre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Cela.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Bau.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Objetos/Porta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/API_master/Salas/Corredor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-line="1" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+>>>>>>> develop
           </folding>
         </state>
       </provider>
