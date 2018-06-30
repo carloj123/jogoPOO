@@ -1,23 +1,23 @@
 package API_master.Salas;
 
 import API_master.Ferramenta;
-import API_master.Ferramentas.Dreno;
-import API_master.Ferramentas.Lanterna;
-import API_master.Objetos.Escuridao;
+import API_master.Ferramentas.Chave;
+import API_master.Ferramentas.LuvasDeBorracha;
+import API_master.Objetos.CofreEletrocutado;
 import API_master.Sala;
 
-public class SalaEscura extends Sala {
+public class SalaDoCofre extends Sala {
 
-    public SalaEscura(){
-        super("Sala Escura.");
-        super.getObjetos().put("Escuridao", new Escuridao());
+    public SalaDoCofre() {
+        super("Sala Do Cofre");
+        super.getObjetos().put("Cofre Eletrocutado", new CofreEletrocutado());
     }
 
     @Override
     public String textoDescricao() {
         StringBuilder descricao = new StringBuilder();
         descricao.append("Você está na ").append(super.getNome()).append(".\n");
-        descricao.append("A sala está Escura como a noite mais sombria, nada pode ser visto.\n");
+        descricao.append("Você vê um cofre, porem BZZZ, centelhas estão saindo dele, Tome cuidado.\n");
         descricao.append("Objetos: ").append(this.objetosDisponiveis().toString()).append("\n");
         descricao.append("Ferramentas: ").append(this.ferramentasDisponiveis().toString()).append("\n");
         descricao.append("Porta: ").append(this.portasDisponiveis().toString()).append("\n");
@@ -29,9 +29,9 @@ public class SalaEscura extends Sala {
     public boolean usa(String ferramenta) {
         Ferramenta f = super.getMochila().usar(ferramenta);
 
-        if (f instanceof Lanterna) {
-            super.getObjetos().get("Escuridao").usar(f);
-            super.getFerramentas().put("Dreno", new Dreno());
+        if (f instanceof LuvasDeBorracha) {
+            super.getObjetos().get("Cofre Eletrocutado").usar(f);
+            super.getFerramentas().put("Chave", new Chave());
             return true;
         }
 

@@ -10,11 +10,9 @@ public class Prisao extends Sala {
 
 
     public Prisao() {
-        super("Prisão.");
+        super("Prisão");
         super.getObjetos().put("Cela", new Cela());
         super.getFerramentas().put("Grampo", new LockPick());
-        super.getFerramentas().put("Lanterna", new Lanterna());
-        super.getPortas().put("Sala Escura", new SalaEscura());
     }
 
     @Override
@@ -35,12 +33,21 @@ public class Prisao extends Sala {
         Ferramenta f = super.getMochila().usar(ferramenta);
 
         if (f instanceof LockPick) {//SE FOR LOCKPICK
-            if (super.getObjetos().get("Cela").usar(f)) {//SE O LOCKPICK NÃO FALHAR, RETURN TRUE
-                return true;
-            }
+            super.getObjetos().get("Cela").usar(f);
+            super.getFerramentas().put("Lanterna", new Lanterna());
+            return true;
         }
-        
+
         return false;
     }
 
+    @Override
+    public boolean pega(String nomeFerramenta) {
+        boolean ok = super.pega(nomeFerramenta);
+        if (ok) {
+            this.getFerramentas().remove(nomeFerramenta);
+            return true;
+        }
+        return false;
+    }
 }
